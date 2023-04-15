@@ -149,9 +149,20 @@ Body {
 /*styles Hero section 1*/
 
 .hero-section {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 188px 0 188px;
   text-align: center;
-  background-color: var(--color-navy-blue);
+  background-color: var(--color-grey);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/feature/people-office.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-item {
@@ -275,7 +286,7 @@ Body {
   color: var(--color-navy-blue);
 }
 
-/*styles section 4*/
+/*styles section 4 Team*/
 .team {
   padding: 120px 0px;
   display: flex;
