@@ -385,7 +385,7 @@ Body {
   width: 168px;
   height: 88px;
   gap: 24px;
-  width: calc((100% - 120px) / 6);
+  width: calc(100% - 120px / 6);
   margin-left: auto;
   margin-right: auto;
 }
