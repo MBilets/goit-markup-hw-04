@@ -165,7 +165,7 @@ Body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/feature/people-office.png);
+    url(../images/feature/people-office.jpg);
 }
 
 .hero-item {
@@ -385,6 +385,9 @@ Body {
   width: 168px;
   height: 88px;
   gap: 24px;
+  width: calc((100% - 120px) / 6);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .customers-link {
