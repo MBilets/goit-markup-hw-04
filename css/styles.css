@@ -385,11 +385,15 @@ Body {
   width: 168px;
   height: 88px;
   gap: 24px;
-  width: calc(100% - 120px / 6);
+
   margin-left: auto;
   margin-right: auto;
 }
-
+.customers-item {
+  width: calc(100% - 120px / 6);
+  justify-content: center;
+  display: flex;
+}
 .customers-link {
   display: flex;
   justify-content: center;
