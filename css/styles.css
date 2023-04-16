@@ -375,7 +375,7 @@ Body {
   display: flex;
 }
 
-.header-two .customers-header {
+.header-two.customers-header {
   line-height: 1.1;
 }
 .customers-list {
@@ -411,6 +411,7 @@ Body {
 .customers-icon:focus {
   fill: var(--color-ocean);
 }
+
 /*footer*/
 
 .footer {
